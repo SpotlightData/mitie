@@ -7,6 +7,7 @@
          "src/entity_extractor.cc",
          "src/relation_extractor.cc",
       ],
+      "cflags_cc+": [ "-frtti" ],
       "cflags!": [ "-fno-exceptions" ],
       "cflags_cc!": [ "-fno-exceptions", "-fno-rtti" ],
       "include_dirs": [
