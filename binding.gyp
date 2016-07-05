@@ -27,7 +27,13 @@
             "GCC_ENABLE_CPP_RTTI": "YES",
             "MACOSX_DEPLOYMENT_TARGET": "10.9"
           }
-        }]
+        }],
+        [ 'OS=="linux" or OS=="freebsd" or OS=="openbsd" or OS=="solaris"',
+          {
+            'cflags_cc!': ['-fno-rtti'],
+            'cflags_cc+': ['-frtti'],
+          }
+        ]
       ]
     }
   ]
