@@ -12,7 +12,7 @@
       "include_dirs": [
         "<!(node -e \"require('nan')\")",
         "/usr/local/include/mitie/",
-        "mitie/dlib/"
+        "/usr/local/include/mitie/dlib/"
       ],
       "link_settings": {
         "libraries": [
