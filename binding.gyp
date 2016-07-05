@@ -8,8 +8,8 @@
          "src/relation_extractor.cc",
       ],
       "cflags_cc+": [ "-frtti" ],
-      "cflags!": [ "-fno-exceptions" ],
-      "cflags_cc!": [ "-fno-exceptions" ],
+      "cflags!": [ "-fno-exceptions", "-fno-rtti" ],
+      "cflags_cc!": [ "-fno-exceptions", "-fno-rtti"],
       "include_dirs": [
         "<!(node -e \"require('nan')\")",
         "/root/.linuxbrew/Cellar/mitie/0.4/include/mitie",
