@@ -12,7 +12,7 @@
       "cflags_cc!": [ "-fno-exceptions", "-fno-rtti" ],
       "include_dirs": [
         "<!(node -e \"require('nan')\")",
-        "mitie/",
+        "/root/.linuxbrew/Cellar/mitie/0.4/include/mitie",
         "mitie/dlib/"
       ],
       "link_settings": {
