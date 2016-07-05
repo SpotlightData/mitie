@@ -12,7 +12,7 @@
       "cflags_cc!": [ "-fno-exceptions", "-fno-rtti" ],
       "include_dirs": [
         "<!(node -e \"require('nan')\")",
-        "/usr/local/include/mitie/",
+        "mitie/",
         "mitie/dlib/"
       ],
       "link_settings": {
