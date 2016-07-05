@@ -7,7 +7,7 @@
          "src/entity_extractor.cc",
          "src/relation_extractor.cc",
       ],
-      "cflags!": [ "-fno-exceptions" ],
+      "cflags!": [ "-fno-exceptions", "-fno-rtti" ],
       "cflags_cc!": [ "-fno-exceptions", "-fno-rtti" ],
       "include_dirs": [
         "<!(node -e \"require('nan')\")",
